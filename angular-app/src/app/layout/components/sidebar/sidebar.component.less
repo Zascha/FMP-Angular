@@ -1,0 +1,73 @@
+@import "../../../constants.less";
+
+.app-sidebar{
+    padding: 20px 10px;
+
+    &-logo{
+        align-items: center;
+        display: flex;
+        margin-bottom: 50px;
+
+        &__image{
+            height: 30px;            
+        }
+
+        &__separator{
+            border-right: 1.5px solid @dark-grey;
+            height: 32px;
+            margin: 0 15px;
+        }
+
+        &__text{
+            color: @dark-grey;
+            line-height: 16px;
+            text-transform: uppercase;
+        }
+    }
+
+    &-user-demo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        &__avatar{
+            border-radius: 60px;
+            height: 120px;
+            margin: auto;
+            margin-bottom: 10px;
+            width: 120px;
+        }
+
+        &__name{
+            color: @black;
+            text-transform: uppercase;            
+            text-align: center;
+        }
+
+        &__title{
+            color: @dark-grey;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+
+    &-menu{
+        &--item{
+            color: @dark-grey;
+            cursor: pointer;
+            display: flex;
+            padding: 10px;
+            text-decoration: none;
+
+            img{
+                height: 15px;
+                margin-right: 15px;
+            }
+
+            &:hover{
+                background-color: @hover-grey;
+            }
+        }
+    }
+}

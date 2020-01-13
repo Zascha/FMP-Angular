@@ -1,0 +1,23 @@
+@import "../constants.less";
+
+.app-layout{
+    display: flex;
+
+    .app-left-side{
+        height: 100vh;
+        width: 250px;
+    }
+
+    .app-right-side{
+        display: flex;
+        background-color: @grey;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+
+        .app-content{
+            height: 100%;
+            padding: 10px;    
+        }
+    }
+}

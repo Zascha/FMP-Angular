@@ -1,0 +1,28 @@
+@import "../../../constants.less";
+
+.app-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    &-icon{
+        cursor: pointer;
+        height: 15px;
+    }
+
+    &-right-side{
+        align-items: center;
+        display: flex;
+        
+        .app-header-icon:first-child{
+            margin-right: 10px;
+        }
+    }
+
+    &--avatar{
+        border-radius: 15px;
+        height: 30px;
+        width: 30px;
+    }
+}
